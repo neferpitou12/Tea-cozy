@@ -23,6 +23,10 @@ header {
   z-index: 1;
 }
 
+header a {
+  text-decoration: underline;
+}
+
 header img {
   height: 50px;
   margin-left: 10px;
@@ -31,18 +35,36 @@ header img {
 .content {
   position: relative;
   top: 69px;
+  /*display: flex;*/
+  justify-content: center;
 }
 
 .mission {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("./resources/img-mission-background.jpg");
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
+  width: 1200px;
 }
 
 .banner {
   background-color: black;
   text-align: center;
   width: 100%;
+}
+
+.month {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+}
+
+.tea-img img {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  width: 300px;
 }
