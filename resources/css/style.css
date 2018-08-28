@@ -35,8 +35,9 @@ header img {
 .content {
   position: relative;
   top: 69px;
-  /*display: flex;*/
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mission {
@@ -56,15 +57,34 @@ header img {
 
 .month {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
   width: 1000px;
 }
 
-.tea-img img {
+.tea-img {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tea-img img {
   height: 200px;
   width: 300px;
+}
+
+.box {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.locations {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+}
+
+.address {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
 }
