@@ -81,10 +81,20 @@ header img {
 .locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
+  width: 1200px;
 }
 
 .address {
   display: flex;
   justify-content: space-between;
+}
+
+.address div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: black;
+  width: 300px;
+  height: 300px;
 }
