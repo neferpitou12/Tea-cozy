@@ -6,6 +6,10 @@ html {
   opacity: 0.9;
 }
 
+div {
+  border: 2px solid white;
+}
+
 header {
   display: flex;
   position: fixed;
@@ -15,8 +19,30 @@ header {
   top: 0;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
+  z-index: 1;
 }
 
 header img {
+  height: 50px;
+  margin-left: 10px;
+}
 
+.content {
+  position: relative;
+  top: 69px;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./resources/img-mission-background.jpg");
+  height: 700px;
+}
+
+.banner {
+  background-color: black;
+  text-align: center;
+  width: 100%;
 }
