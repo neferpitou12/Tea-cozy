@@ -6,10 +6,6 @@ html {
   opacity: 0.9;
 }
 
-div {
-  border: 2px solid white;
-}
-
 header {
   display: flex;
   position: fixed;
@@ -25,6 +21,8 @@ header {
 
 header a {
   text-decoration: underline;
+  color: seashell;
+  opacity: 0.9;
 }
 
 header img {
@@ -41,6 +39,10 @@ footer {
 
 footer .copy {
   text-align: left;
+}
+
+nav a {
+  margin: 0px 10px;
 }
 
 .content {
@@ -88,6 +90,7 @@ footer .copy {
 .box {
   display: inline-flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .locations {
