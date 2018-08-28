@@ -1,4 +1,4 @@
-html {
+body {
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -17,6 +17,7 @@ header {
   justify-content: space-between;
   background-color: black;
   z-index: 1;
+  margin-left: 0;
 }
 
 header a {
@@ -39,21 +40,26 @@ footer {
 
 footer .copy {
   text-align: left;
+  margin-left: 20px;
+}
+
+nav {
+  margin-right: 10px;
 }
 
 nav a {
   margin: 0px 10px;
 }
 
-.content {
+main {
   position: relative;
-  top: 69px;
+  top: 63px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.mission {
+#mission {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +74,7 @@ nav a {
   width: 100%;
 }
 
-.month {
+#month {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,7 +85,7 @@ nav a {
 .tea-img {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
 }
 
 .tea-img img {
@@ -91,9 +97,10 @@ nav a {
   display: inline-flex;
   flex-direction: column;
   align-items: center;
+  margin: 15px;
 }
 
-.locations {
+#locations {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   height: 500px;
   width: 1200px;
@@ -102,18 +109,16 @@ nav a {
 
 .address {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .address div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   background-color: black;
   width: 300px;
   height: 300px;
-  margin: 15px 20px 0 80px;
 }
 
 .locations h2 {
